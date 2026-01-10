@@ -1,3 +1,22 @@
 @import 'tailwindcss';
 @plugin '@tailwindcss/forms';
 @plugin '@tailwindcss/typography';
+
+.button {
+    @apply
+        cursor-pointer
+        rounded-lg
+        p-2
+        bg-slate-200
+        hover:bg-slate-400/50
+        active:scale-95
+        active:bg-slate-400/75
+    ;
+}
+
+.info {
+    @apply
+        p-2
+        size-fit
+    ;
+}
